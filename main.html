@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <h1 class="text-8xl text-center"> Baper bank er moooooony</h1>
+
+<div class="flex justify-center gap-8 mt-10">
+  <div class="flex-none w-64 bg-emerald-300 text-center text-3xl p-9  ">
+    Diposit: $<span id="total-amount">00</span>
+  </div>
+
+  <div class="flex-initial w-64  bg-violet-600 w-64 bg-emerald-300 text-center text-3xl p-9 ">
+    Withdrow:$<span id="totalwidrow">00</span>
+  </div>
+
+  <div class="flex-initial w-64 bg-sky-700 w-64 bg-emerald-300 text-center text-3xl p-9 ">
+    Total Amount:$<span class="text-white" id="alltoatl">1200</span>
+  </div>
+</div>
+
+<div class="flex justify-center gap-8 mt-10">
+  <div class="flex-none w-96
+  bg-emerald-300 p-9 text-2xl ">
+    Enter Diposite Amount
+    <input  class=" w-87 p-3 rounded-lg mb-4 mt-4 mx-auto" id="diposit-fild"  type="text" placeholder="enter your email here " value="">
+    <button id="diposit-btn" class="p-4 bg-red-800 text-white text-lg"> Diposit</button>
+
+  </div>
+
+
+  <div class="flex-none w-96
+  bg-emerald-300 p-9 text-2xl ">
+  Enter Amount for Withdrow
+<input  class=" w-87 p-3 rounded-lg mb-4  mx-auto mt-3" id="widthrow-fild"  type="text" placeholder="enter the amount you want diposit here " value="">
+
+
+
+<button id="widthrow-btn" class="p-4 bg-red-800 text-white text-lg">Withdrow</button>
+
+  </div>
+</div>
+<script src="js/mian.js"></script>
+<script src="js/widtrew.js"></script>
+</body>
+</html>
